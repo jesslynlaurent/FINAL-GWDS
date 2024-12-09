@@ -1,9 +1,17 @@
 body {
-    background-color: black;
+    background-color: midnightblue;
     .header {
-    overflow: hidden;
+    overflow: scroll;
     background-color: magenta;
     padding: 20px 10px;
+    }
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: silver;
+        font-style: italic;
+        text-align: center;
+        font-size: 80px;
     }
 
     /* Style the header links */
@@ -16,7 +24,6 @@ body {
     font-size: 16px;
     line-height: 25x;
     border-radius: 4px;
-    
     }
 
     /* Style the logo link */
@@ -52,6 +59,9 @@ body {
     .header-right {
     float: none;
     }
+
+   
+    
 }
 
 }
