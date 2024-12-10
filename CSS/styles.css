@@ -7,11 +7,14 @@ body {
     }
 
     h1 {
-        font-family: 'Times New Roman', Times, serif;
-        color: silver;
-        font-style: italic;
-        text-align: center;
+       font-family: 'Sixtyfour Convergence', Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
         font-size: 80px;
+        font-style: normal;
+        text-align: center;
+    }
+
+       
     }
 
     /* Style the header links */
@@ -79,4 +82,3 @@ body {
     
 }
 
-}
