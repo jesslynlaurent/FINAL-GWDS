@@ -1,5 +1,5 @@
 body {
-    background-color: midnightblue;
+    background-color:midnightblue;
     .header {
     overflow: scroll;
     background-color: magenta;
@@ -13,8 +13,7 @@ body {
         font-style: normal;
         text-align: center;
     }
-
-       
+   
     }
 
     /* Style the header links */
@@ -37,8 +36,8 @@ body {
 
     /* Change the background color on mouse-over */
     .header a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: gold;
+    color: grey;
     }
 
     /* Style the active link*/
