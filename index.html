@@ -4,11 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jesslyn Laurent</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Tangerine:wght@400;700&display=swap');
+
+        body {
+        background-color:midnightblue;
+        .header {
+        overflow: scroll;
+        background-color: magenta;
+        padding: 30px 10px;
+        }
+        }
+
+    h1 {
+       font-family: 'Sixtyfour Convergence', Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        font-size: 100px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    
+    .header a {
+    float: none;
+    color: silver;
+    text-align: center;
+    text-decoration: double;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 25x;
+    border-radius: 8px;
+    }
+
+    
+    .header a.name {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .header a:hover {
+    background-color: gold;
+    color: grey;
+    }
+
+    .header a.active {
+    background-color: cadetblue;
+    color: white;
+    }
+
+    .header-centre {
+    float:centre;
+    }
+
+    /* Add media queries for responsiveness */
+    @media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: flexbox;
+        text-align: right;
+    }
+    .header-centre {
+    float: none;
+    }
+
+
+    
+}
+
+
+   
 
         img {
             margin-right: 20px;
