@@ -9,35 +9,132 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Tangerine:wght@400;700&display=swap');
+
+        img {
+            margin-right: 20px;
+            height: 300px;
+            border: 1px solid hotpink;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        footer {
+        background-color: black;
+        color: silver;
+        text-align: center;
+        padding: 20px 10px;
+        }
+
+        ul {
+            padding: 20px;
+            color: azure;
+        }
+
+        .container-navigation {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .push {
+            margin-left: auto;
+        }
+
+        li {
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin: 5px 10px;
+            border: 2px solid gold;
+            border-radius: 10px;
+            background-color: black
+        }
+            
+        button {
+            border: 3px solid fuchsia;
+            border-radius: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            padding: 10px;
+            margin: 1px;
+            transition-duration: .5s;
+        }
+
+        button:hover {
+            background-color: black;
+            color: fuchsia;
+        }
+
+        button:active {
+            background-color: fuchsia;
+            box-shadow: white;
+            transform: translate(5px);
+        }
+
+        .box {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+        margin: 2px;
+        padding: 10px;
+        text-decoration: wavy;
+        color: beige;
+        }
+
         </style>
 
-</head>
-<body>
+    </head>
+    <body>
+    <header>
     <h1>Welcome to Jesslyn's Page!</h1>
 
-     <div class="header">
-        <div class="header-right">
+        <ul>
+        <div class="container-navigation">
+        <button><a href="#coding_worksheet">Coding Worksheet</a></button>
+        <button><a href="#CARP_posters">CARP Posters</a></button>
+        <button class="push"><a href="#Typographic_system">Typographic System</a></button>
+        <button><a href="#reflections">Reflections</a></button>
+        <button><a href="#Jesslyn">Jesslyn</a></button>
+
+        </div>
+        </ul>
+
+        </header>
+        <div class="header">
+        <div class="header-left">
+        
          
-         </div>
+         <div>
 
             <div class="box">
+            <h2 id="coding_worksheet"></h2>
             <a href="./coding_worksheet.html">Coding Worksheet</a>
+            <img src="coding ws photo.jpg" alt="coding worksheet pics" class="img">
             </div>
 
             <div class="box">
+            <h2 id="CARP_posters"></h2>
             <a href="./CARP_posters.html">CARP Posters</a>
+            <img src="TrueFalseFilmFestivalLogo.png" alt="truefalse festival logo" class="img">
             </div>
 
             <div class="box">
+            <h2 id="Typographic_system"></h2>
             <a href="./Typographic_system.html">Typographic system</a>
+            <img src="typographic systems task.jpg" alt="typographic system" class="img">
             </div>
 
-            <div class="box">
-            <a href="./Reflections.html">Reflections</a>
+            <div class="box"
+            <h2 id="reflections"></h2>
+            <a href="./reflections.html">Reflections</a>
+            <img src="IMG_2000.jpg" alt="jes;s uni snippets" class="img">
             </div>
 
+
             <div class="box">
+            <h2 id="Jesslyn"></h2>
             <a href="./Jesslyn.html">Jesslyn</a>
+            <img src="IMG_2156.jpg" alt="jesslyn's pic" class="img">
             </div>
 
             
@@ -45,7 +142,10 @@
 
         </div>
 
-        
+        <footer>
+            This website is made by Jesslyn Laurent
+        </footer>
+       
 
 
 </body>
